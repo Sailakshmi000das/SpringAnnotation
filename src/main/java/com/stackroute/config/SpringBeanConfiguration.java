@@ -4,6 +4,7 @@ import com.stackroute.awareinterface.ApplicationContextAwareDemo;
 import com.stackroute.awareinterface.BeanFactoryAwareDemo;
 import com.stackroute.awareinterface.BeanNameAwareDemo;
 import com.stackroute.demo.BeanLifecycleDemoBean;
+import com.stackroute.demo.BeanPostProcessorDemoBean;
 import com.stackroute.domain.Actor;
 import com.stackroute.domain.Movie;
 import org.springframework.context.annotation.Bean;
@@ -64,4 +65,10 @@ public class SpringBeanConfiguration{
     public BeanLifecycleDemoBean getBeanLifecycleDemoBean(){
         return new BeanLifecycleDemoBean();
     }
+
+    @Bean(name="beanPostProcessorDemoBean")
+    public BeanPostProcessorDemoBean getBeanPostProcessorDemoBean(){
+        return new BeanPostProcessorDemoBean();
+    }
+
 }
