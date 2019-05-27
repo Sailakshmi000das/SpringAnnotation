@@ -4,9 +4,10 @@ import com.stackroute.domain.Actor;
 import com.stackroute.domain.Movie;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
 @Configuration
-public class SpringBeanConfiguration {
+public class SpringBeanConfiguration{
 
     public Actor getActor(){
         return new Actor("sai","female",22);
@@ -22,6 +23,7 @@ public class SpringBeanConfiguration {
     }
 
     @Bean(name="movie1")
+    @Scope("prototype")
     public Movie getMovie1(){
         return new Movie(101,"Mirchi",getActor1());
     }
