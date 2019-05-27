@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6aa85ec4-4e17-4425-9a2f-e25f5a5ea1d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/config/SpringBeanConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/config/SpringBeanConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/domain/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/domain/Movie.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+            <state relative-caret-position="254">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -78,8 +73,56 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="181">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1256#1257#0" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1489#1490#0" expanded="true" />
+                <element signature="e#1588#1589#0" expanded="true" />
+                <element signature="e#1637#1638#0" expanded="true" />
+                <element signature="e#1727#1728#0" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/ApplicationContextAwareDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/BeanNameAwareDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/BeanFactoryAwareDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +144,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -110,7 +153,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="constructor-injection" />
+        <entry key="$PROJECT_DIR$" value="autowire-xml" />
       </map>
     </option>
   </component>
@@ -121,9 +164,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Actor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/BeanFactoryAwareDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/BeanNameAwareDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/ApplicationContextAwareDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java" />
       </list>
     </option>
   </component>
@@ -147,6 +193,59 @@
             <path>
               <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="awareinterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringAnnotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringAnnotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stackroute" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558947957405</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Task3 Completed&quot;">
+      <created>1558953079553</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558953079553</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -276,7 +382,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Task2 Completed&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Task2 Completed&quot;" />
+    <MESSAGE value="&quot;Task3 Completed&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Task3 Completed&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/config/ComponentScan.java" />
@@ -321,29 +428,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        <state relative-caret-position="254">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/domain/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/BeanFactoryAwareDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/ApplicationContextAwareDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/awareinterface/BeanNameAwareDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/config/SpringBeanConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="181">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1588#1589#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
           </folding>
         </state>
       </provider>

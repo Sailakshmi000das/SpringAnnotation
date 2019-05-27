@@ -7,7 +7,6 @@ public class Movie {
 
     private int id;
     private String movieName;
-    @Autowired
     private Actor actor;
 
     public Movie(int id, String movieName) {
@@ -47,7 +46,6 @@ public class Movie {
                 '}';
     }
 
-    @Autowired
     public void setActor(Actor actor) {
         this.actor = actor;
     }
