@@ -28,5 +28,7 @@ public class Main
 
 
         //System.out.println(movie.getMovieName()+" "+movie.getId());
+
+        ctx.close();
     }
 }
